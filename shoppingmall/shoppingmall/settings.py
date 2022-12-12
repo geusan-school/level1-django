@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'accounts.apps.AccountsConfig',
     'products.apps.ProductsConfig',
+    'payments.apps.PaymentsConfig',
     'drf_spectacular',
     'drf_spectacular_sidecar',
 ]

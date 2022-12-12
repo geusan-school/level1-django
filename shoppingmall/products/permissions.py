@@ -15,4 +15,4 @@ class IsAdminUserOrReadOnly(IsAdminUser):
                 super().has_permission(request, view)
             )
         )
-        
+
